@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  border: solid 1px #000;
+  border: solid 1px #ffffff;
 }
 
 .container-button {
@@ -60,9 +60,19 @@
   text-align: justify;
   justify-content: center;
   width: 99%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.input-text{
-      border: solid 1px #000;
+.rodape a {
+  cursor: pointer;
+}
+
+.input-text {
+  border: solid 1px #000;
+}
+
+.result {
+  border: solid 1px #000;
+  width: 71.7%;
+  height: 50%;
 }
