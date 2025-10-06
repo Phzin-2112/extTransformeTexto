@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+
+  background-color: rgb(146, 145, 145);
+
+  /* Chamando a fonte */
+  font-family: "Ubuntu";
+  font-size: 12px;
+
+  /* Bordas View */
+  border: solid 1px #ffffff;
+  cursor: cell;
+}
+
+.container-pai {
+  width: 200px;
+  height: 200px;
+  color: aliceblue;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 36, 36);
+}
+
+.container-button {
+  width: 160px;
+  padding: 5px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  cursor: pointer;
+  width: 77px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* Desafio cabeçalho */
+
+/* Desafio rodapé */
