@@ -1,0 +1,9 @@
+{
+  "name": "Transforme Textos",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Essa extensão pode ser usada para converter MAIUSCULAS em minusculas, e minusculas em MAIUSCULAS ",
+  "action": {
+    "default_popup": "index.html"
+  }
+}
