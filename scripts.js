@@ -14,6 +14,7 @@
   });
  */
 
+<<<<<<< HEAD
 window.document.addEventListener("DOMContentLoaded", function () {
   window.document
     .querySelector("#btnMaiuscula")
@@ -31,3 +32,16 @@ window.document.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#result").innerHTML = inputText.toLowerCase();
     });
 });
+=======
+window.document.addEventListener("DOMContentLoaded", function(){
+  window.document.querySelector("#btnMaiuscula").addEventListener("click", function(){
+    let inputText = document.querySelector("#input-text").value
+    document.querySelector("#result").innerHTML = inputText.toUpperCase()
+  })
+
+    window.document.querySelector("#btnminuscula").addEventListener("click", function(){
+    let inputText = document.querySelector("#input-text").value
+    document.querySelector("#result").innerHTML = inputText.toLowerCase()
+  })
+})
+>>>>>>> 1f9eac59c3096159c451d084d6f2b7874a1aa38d

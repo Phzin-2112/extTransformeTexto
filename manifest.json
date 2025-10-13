@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "Transforme Textos",
   "version": "1.0",
   "manifest_version": 3,
@@ -7,3 +8,14 @@
     "default_popup": "index.html"
   }
 }
+=======
+    "name": "Transformar Textos",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Está descrição serve para transformar seus textos em letras MAIÚSCULAS ou minúsculas.",
+    "action": {
+      "default_popup": "index.html"
+    }
+      
+}
+>>>>>>> 1f9eac59c3096159c451d084d6f2b7874a1aa38d
