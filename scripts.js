@@ -19,7 +19,9 @@ window.document.addEventListener("DOMContentLoaded", function () {
     .querySelector("#btnMaiuscula")
     .addEventListener("click", function () {
       let inputText = document.querySelector("#input-text").value;
+      let result = document.querySelector("#result");
       document.querySelector("#result").innerHTML = inputText.toUpperCase();
+      result.style.color = "black";
     });
 
   window.document

@@ -1,39 +1,45 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>Transformar Textos</title>
-    </head>
-    <body>
-        <div class="container-pai">
-        <header class="cabecalho"><img src="icons/Vetor_Logo300.jpg" width="20px"> TRANSFORME textos</header>
-        <input
-            type="text"
-            name="text"
-            id="input-text"
-            class="input-text"
-            maxlength="500"
-            placeholder="Digite o texto aqui"
-            required
-        />
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Transformar Textos</title>
+  </head>
+  <body>
+    <div class="container-pai">
+      <header class="cabecalho">
+        <img src="icons/Vetor_Logo300.jpg" width="20px" /> TRANSFORME textos
+      </header>
+      <input
+        type="text"
+        name="text"
+        id="input-text"
+        class="input-text"
+        maxlength="500"
+        placeholder="Digite o texto aqui"
+        required
+      />
 
-        <div class="container-button">
-            <button type="button" class="btn" id="btnMaiuscula">MAIÚSCULA</button>
-            <button type="button" class="btn" id="btnminuscula">minúscula </button>
-        </div>
-          <div class="lbl_resultado">
-            Resultado:
-          </div>
-        <div name="result" id="result" class="result"></div>
+      <div class="container-button">
+        <button type="button" class="btn" id="btnMaiuscula">MAIÚSCULA</button>
+        <button type="button" class="btn" id="btnminuscula">minúscula</button>
+      </div>
+      <div name="result" id="result" class="result">Resultado</div>
 
-        <footer class="rodape">Para mais opções <a href="https://github.com/Phzin-2112">entre no link</footer>
-
-        </div>
-        <script src="scripts.js"></script>
-    </body>
-    </html>
+      <footer class="rodape">
+        Para mais opções
+        <a href="https://github.com/Phzin-2112" target="_blank">
+          entre no link
+        </a>
+      </footer>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
