@@ -36,6 +36,13 @@ window.document.addEventListener("DOMContentLoaded", function () {
     let resultado = inputText.charAt(0).toUpperCase() + inputText.slice(1).toLowerCase();
     document.querySelector("#result").innerHTML = resultado;
   });
+
+    window.document
+    .querySelector("#btnminuscula")
+    .addEventListener("click", function () {
+      let inputText = document.querySelector("#input-text").value;
+      document.querySelector("#result").innerHTML = inputText.value = '';
+    });
   const shiftMap = {
     '1': '!',
     '2': '@',
