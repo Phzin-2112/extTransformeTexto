@@ -37,11 +37,8 @@
 
 .btn {
   cursor: pointer;
-<<<<<<< HEAD
   width: 90px;
-=======
   width: 85px;
->>>>>>> 1f9eac59c3096159c451d084d6f2b7874a1aa38d
   padding: 3px;
   border-radius: 3px;
   border: solid 1px #000;
@@ -49,20 +46,12 @@
 
 .cabecalho {
   display: flex;
-<<<<<<< HEAD
   font-size: medium;
   flex-direction: row;
   align-items: center;
   text-align: justify;
   justify-content: center;
   width: 100%;
-=======
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  justify-content: center;
-  width: 99%;
->>>>>>> 1f9eac59c3096159c451d084d6f2b7874a1aa38d
   height: 30%;
 }
 
@@ -82,20 +71,14 @@
 
 .input-text {
   border: solid 1px #000;
-<<<<<<< HEAD
   cursor: pointer;
-=======
->>>>>>> 1f9eac59c3096159c451d084d6f2b7874a1aa38d
 }
 
 .result {
   border: solid 1px #000;
   width: 71.7%;
   height: 50%;
-<<<<<<< HEAD
   border-radius: 5px;
   border-color: #000;
   color: gray;
-=======
->>>>>>> 1f9eac59c3096159c451d084d6f2b7874a1aa38d
 }

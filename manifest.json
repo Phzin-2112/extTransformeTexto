@@ -1,21 +1,19 @@
 {
-<<<<<<< HEAD
   "name": "Transforme Textos",
   "version": "1.0",
   "manifest_version": 3,
   "description": "Essa extensão pode ser usada para converter MAIUSCULAS em minusculas, e minusculas em MAIUSCULAS ",
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/Vetor_Logo16.png",
+      "48": "icons/Vetor_Logo48.png",
+      "128": "icons/Vetor_Logo128.png"
+    }
+  }, "icons":{
+    "16": "icons/Vetor_Logo16.png",
+    "48": "icons/Vetor_Logo48.png",
+    "128": "icons/Vetor_Logo128.png",
+    "300": "icons/Vetor_Logo300.png"
   }
 }
-=======
-    "name": "Transformar Textos",
-    "version": "1.0",
-    "manifest_version": 3,
-    "description": "Está descrição serve para transformar seus textos em letras MAIÚSCULAS ou minúsculas.",
-    "action": {
-      "default_popup": "index.html"
-    }
-      
-}
->>>>>>> 1f9eac59c3096159c451d084d6f2b7874a1aa38d
