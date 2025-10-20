@@ -38,7 +38,7 @@ window.document.addEventListener("DOMContentLoaded", function () {
   });
 
     window.document
-    .querySelector("#btnminuscula")
+    .querySelector("#btnL")
     .addEventListener("click", function () {
       let inputText = document.querySelector("#input-text").value;
       document.querySelector("#result").innerHTML = inputText.value = '';
