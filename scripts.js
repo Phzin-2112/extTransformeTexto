@@ -36,11 +36,29 @@ window.document.addEventListener("DOMContentLoaded", function () {
     let resultado = inputText.charAt(0).toUpperCase() + inputText.slice(1).toLowerCase();
     document.querySelector("#result").innerHTML = resultado;
   });
+  const shiftMap = {
+    '1': '!',
+    '2': '@',
+    '3': '#',
+    '4': '$',
+    '5': '%',
+    '6': '¨',
+    '7': '&',
+    '8': '*',
+    '9': '(',
+    '0': ')',
+    '-': '_',
+    '=': '+'
+  };
 
-    window.document.querySelector("#btnL").addEventListener("click", function () {
+  document.querySelector("#btnS").addEventListener("click", function () {
     let inputText = document.querySelector("#input-text").value;
-    document.querySelector("#result").innerHTML = inputText.value = "";
+    let shiftedText = '';
+
+    for (let char of inputText) {
+      shiftedText += shiftMap[char] || char;
+    }
+    document.querySelector("#result").innerHTML = shiftedText;
+    document.querySelector("#input-text").value = "";
   });
-
-
 });
