@@ -33,8 +33,13 @@ window.document.addEventListener("DOMContentLoaded", function () {
 
   window.document.querySelector("#btnP").addEventListener("click", function () {
     let inputText = document.querySelector("#input-text").value;
-    let resultado = inputText.charAt(0).toUpperCase() + inputText.toLowerCase();
+    let resultado = inputText.charAt(0).toUpperCase() + inputText.slice(1).toLowerCase();
     document.querySelector("#result").innerHTML = resultado;
+  });
+
+    window.document.querySelector("#btnL").addEventListener("click", function () {
+    let inputText = document.querySelector("#input-text").value;
+    document.querySelector("#result").innerHTML = inputText.value = "";
   });
 
 
