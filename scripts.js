@@ -30,4 +30,12 @@ window.document.addEventListener("DOMContentLoaded", function () {
       let inputText = document.querySelector("#input-text").value;
       document.querySelector("#result").innerHTML = inputText.toLowerCase();
     });
+
+  window.document.querySelector("#btnP").addEventListener("click", function () {
+    let inputText = document.querySelector("#input-text").value;
+    let resultado = inputText.charAt(0).toUpperCase() + inputText.toLowerCase();
+    document.querySelector("#result").innerHTML = resultado;
+  });
+
+
 });

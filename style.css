@@ -15,7 +15,7 @@
 }
 
 .container-pai {
-  width: 250px;
+  width: 500px;
   height: 200px;
 
   /* Flexbox */
@@ -27,12 +27,12 @@
 }
 
 .container-button {
-  width: 190px;
-  padding: 5px;
-  /* Flexbox */
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
+  grid-template-rows: repeat(2, auto); /* 2 linhas */
+  gap: 10px; /* Espaçamento entre os botões */
+  max-width: 300px; /* opcional para limitar a largura */
+  margin: 0 auto; /* centralizar o container */
 }
 
 .btn {
@@ -40,6 +40,7 @@
   width: 90px;
   width: 85px;
   padding: 3px;
+  gap: 10%;
   border-radius: 3px;
   border: solid 1px #000;
 }
@@ -70,14 +71,17 @@
 }
 
 .input-text {
+  border-radius: 5px;
   border: solid 1px #000;
   cursor: pointer;
+  width: 50%;
+  height: 20%;
 }
 
 .result {
   border: solid 1px #000;
-  width: 71.7%;
-  height: 50%;
+  width: 50%;
+  height: 70%;
   border-radius: 5px;
   border-color: #000;
   color: gray;
